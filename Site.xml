@@ -1,0 +1,18 @@
+﻿<mvcSiteMap>
+  <mvcSiteMapNode url="/Dashboard/SupervisorDashboard" title="Dashboard"  SystemName="SUPDashboard" Icon="glyphicon fa fa-tachometer"/>
+  <mvcSiteMapNode url="/Dashboard/BenefitsAnalystDashboard" title="Dashboard"  SystemName="BenefitsAnalystDashboard" Icon="glyphicon fa fa-tachometer"/>
+  <mvcSiteMapNode url="/Dashboard/QualityAnalystDashboard" title="Dashboard"  SystemName="QualityAnalystDashboard" Icon="glyphicon fa fa-tachometer"/>
+  <mvcSiteMapNode url="/Dashboard/BenefitAnalystLeadDashboard" title="Dashboard"  SystemName="BenefitsAnalystLeadDashboard" Icon="glyphicon fa fa-tachometer"/>
+  <mvcSiteMapNode url="/Dashboard/EmpSupervisorDashboard" title="Dashboard"  SystemName="EmpSupervisorDashboard" Icon="glyphicon fa fa-tachometer"/>
+  <mvcSiteMapNode url="/Dashboard/EmpEssDashboard" title="Dashboard"  SystemName="EmpEssDashboard" Icon="glyphicon fa fa-tachometer"/>
+  <mvcSiteMapNode url="/Dashboard/EmpQualityAnalystDashboard" title="Dashboard"  SystemName="EmpQualityAnalystDashboard" Icon="glyphicon fa fa-tachometer"/>
+
+  <mvcSiteMapNode url="" title="Master Data"  SystemName="" Icon="glyphicon fa fa-database">
+  <ChildNode url="/usermanagement/manage" title="User Management" SystemName="UserManagement" Icon=""/>
+  <ChildNode url="/CaseReview/CaseReview" title="Review Masters" SystemName="CaseReviewDetial" Icon=""/>
+
+  <ChildNode url="/StaffHierarchy/HierarchySetting" title="Organization Hierarchy" SystemName="StaffHierarchySetting" Icon=""/>
+    <ChildNode url="/StaffHierarchy/Index" title="Employee Hierarchy" SystemName="StaffHierarchy" Icon=""/>
+  </mvcSiteMapNode>
+</mvcSiteMap>
+
